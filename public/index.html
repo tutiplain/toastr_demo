@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Toastr - typescript wrapper demo
+        </title>
+        <script type="text/javascript" src="js/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="js/toastr/toastr.min.js"> </script>
+        <link rel="stylesheet" href="js/toastr/toastr.min.css">
+
+        <!-- my script -->
+        <script type="text/javascript">
+            function showSuccess()
+            {
+                //alert('hola');
+                toastr.success('Congratulations on pressing the button');
+            }
+            //document.getElementById('btnShow').onclick=showSuccess;
+        </script>
+
+    </head>
+    <body>
+        Hello world. This is a simple demo of the toastr success button.
+        <input type="button" id="btnShow" onclick="showSuccess()" value="Press me" >
+
+    </body>
+</html>

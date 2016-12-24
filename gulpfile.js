@@ -1,14 +1,9 @@
-var gulp = require('gulp');
-var del = require('del');
+var gulp = require("gulp");
+var ts = require("gulp-typescript");
+var tsProject = ts.createProject("tsconfig.json");
 
-var paths = {
-    scripts: ['scripts/**/*.js', 'scripts/**/*.ts', 'scripts/**/*.map'],
-};
-
-gulp.task('clean', function() {
-    return del(['wwwroot/scripts/**/*']);
-});
-
-gulp.task('default', function() {
-    gulp.src(paths.scripts).pipe(gulp.dest('wwwroot/scripts'))
+gulp.task("default", function() {
+    return tsProject.src()
+        .pipe(tsProject())
+        .js.pipe(gulp.dest("public/js"));
 });

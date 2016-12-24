@@ -11,11 +11,11 @@
 
   To run the project, type the following in your CLI (cmd.exe on windows)
 
-  `git clone https://github.com/tutiplain/toastr_demo
-  `cd toasr_demo
-  `npm install
-  `bower install
-  `node index
-
+  ```git clone https://github.com/tutiplain/toastr_demo
+  cd toasr_demo
+  npm install
+  bower install
+  node index
+```
   Enjoy!
 

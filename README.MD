@@ -8,6 +8,7 @@
   * [node.js](http://nodejs.org)
   * a web browser
   * [git](https://git-for-windows.github.io/)
+  * [bower](http://bower.io)
 
   To run the project, type the following in your CLI (cmd.exe on windows)
 

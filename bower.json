@@ -1,0 +1,14 @@
+{
+  "name": "toastr_test",
+  "description": "A toastr.js API typescript wrapper",
+  "main": "index.js",
+  "authors": [
+    "Omar <megathodik@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tutiplain/toastr_demo",
+  "private": true,
+  "dependencies": {
+    "toastr": "^2.1.3"
+  }
+}
